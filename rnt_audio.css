@@ -15,6 +15,7 @@
 
 /* Audio Styles */
 
+/* Set audio element to a display of block with a grey box shadow and top/bottom margin of 20px. Centered using margin auto. Widht set to 80%. */
 audio {
     display: block;
     box-shadow: 8px 8px 15px darkgray;
@@ -22,6 +23,7 @@ audio {
     width: 80%;
 }
 
+/* Audio controls on Chrome set to purple. */
 audio::-webkit-media-controls-panel {
     background: rgb(128, 128, 255);
 }
